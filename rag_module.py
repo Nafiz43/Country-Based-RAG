@@ -72,7 +72,7 @@ def query_documents(scope):
     print("\nCOntext to the MODEL:\n", combined)
     
     response = llm.invoke(combined + f"\n\nAnswer the question: {user_question}")
-    print("***************************************************************************")
+    print("******************************************************************************************************************************************************")
     print("\nResponse:\n", response)
 
 if __name__ == "__main__":
