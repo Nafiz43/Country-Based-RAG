@@ -10,8 +10,8 @@ This repository provides a simple Retrieval-Augmented Generation (RAG) pipeline 
 
 ```
 Country-Based-RAG/
-├── India/       # Place India-related PDFs here
-├── China/       # Place China-related PDFs here
+├── data/India/       # Place India-related PDFs here
+├── data/China/       # Place China-related PDFs here
 ```
 
 ## Dependencies
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 python rag_module.py --mode ingest
 ```
 
-This will index all PDFs under `RAG_System/India` and `RAG_System/China`.
+This will index all PDFs under `Country-Based-RAG/India` and `Country-Based-RAG/China`.
 
 ### 2. Query the System
 
