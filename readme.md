@@ -56,14 +56,6 @@ python rag_module.py --mode query --scope China
 ```bash
 python rag_module.py --mode query --scope India+China
 ```
-
-## 🤖 Model Used
-
-- **Embeddings**: `all-MiniLM-L6-v2` via `sentence-transformers`
-- **LLM Inference**: `Ollama` running locally (tested with `mistral`)
-
-## 📦 Notes
-
-- Make sure Ollama is running and the model (e.g., `mistral`) is available.
-- You can change `mistral` to another local model in the script if needed.
+## Notes
+- You can change `llama3.2:1b` to another local model in the script if needed.
 - Top `k=4` results are returned; for `India+China`, it uses 2 from each.
